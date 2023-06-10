@@ -1,5 +1,5 @@
 class Hashtag < ApplicationRecord
     has_many :tags 
 
-    validates :name, presence :true
+    validates :name, presence: true
 end
